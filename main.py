@@ -24,7 +24,7 @@ def test_1():
         review = graph.invoke(review)
 
         print(f"ID: {id}\nReview: {review_text}")
-        print(f"Sentiment: {review["sentiment"]}\nGenerated Reply:\n{review["reply"]}\n")
+        print(f"Sentiment: {review['sentiment']}\nGenerated Reply:\n{review['reply']}\n")
 
 
 def test_2():
