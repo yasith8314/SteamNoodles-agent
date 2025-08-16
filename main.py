@@ -28,15 +28,18 @@ def test_1():
 
 
 def test_2():
+    print("========== Test 02 ===========")
+    print("Generate the grpahs")
+    
     graph = Sentiment_Visualization_Agent()
 
     plot1 = PlotState(date_range_prompt="last 2 weeks", graph_type="bar graph")
     plot2 = PlotState(date_range_prompt="from July 10th to August 1st", graph_type="line graph")
 
     graph.invoke(plot1)
-    #graph.invoke(plot2)
+    graph.invoke(plot2)
 
 
 if __name__ == "__main__":
-    #test_1()
+    test_1()
     test_2()
