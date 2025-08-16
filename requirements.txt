@@ -1,5 +1,5 @@
 langgraph
 typing_extensions
 matplotlib
-pysqlite3
 python-dotenv
+groq
