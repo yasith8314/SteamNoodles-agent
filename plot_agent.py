@@ -115,7 +115,7 @@ def bar_graph_ploter(state: PlotState) -> PlotState:
     plt.legend()
 
     # Save plot
-    plot_path = f"./graphs/sentiment_bar_graph from {state['start_date']} to {state['end_date']}.png"
+    plot_path = f"sentiment_bar_graph from {state['start_date']} to {state['end_date']}.png"
     plt.tight_layout()
     plt.savefig(plot_path)
     plt.close()
@@ -153,7 +153,7 @@ def line_graph_ploter(state: PlotState) -> PlotState:
     plt.legend()
 
     # Save plot
-    plot_path = f"./graphs/sentiment_line_graph from {state['start_date']} to {state['end_date']}.png"
+    plot_path = f"sentiment_line_graph from {state['start_date']} to {state['end_date']}.png"
     plt.tight_layout()
     plt.savefig(plot_path)
     plt.close()
