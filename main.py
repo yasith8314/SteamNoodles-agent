@@ -33,7 +33,7 @@ def test_2():
     
     graph = Sentiment_Visualization_Agent()
 
-    plot1 = PlotState(date_range_prompt="last 2 weeks", graph_type="bar graph")
+    plot1 = PlotState(date_range_prompt="last week", graph_type="bar graph")
     plot2 = PlotState(date_range_prompt="from July 10th to August 1st", graph_type="line graph")
 
     graph.invoke(plot1)
